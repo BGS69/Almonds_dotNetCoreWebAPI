@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D2CE7CE9-59F0-4AD7-855F-F504C50FD3F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30518B0B-48F9-4468-8906-2BC247E10185}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApi_With_EFCore", "src\WebApi_With_EFCore\WebApi_With_EFCore.xproj", "{9C8E7BE4-13BA-4295-8B36-4BEBE5741B02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_With_EFCore", "src\WebApi_With_EFCore\WebApi_With_EFCore.csproj", "{9C8E7BE4-13BA-4295-8B36-4BEBE5741B02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C8E7BE4-13BA-4295-8B36-4BEBE5741B02} = {D2CE7CE9-59F0-4AD7-855F-F504C50FD3F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B3C0A51-5502-4C91-9BFE-18ADDA8D53C2}
 	EndGlobalSection
 EndGlobal
